@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .center input {
+            width: 100%;
+          }
+
+        .top:before {
+        transform: rotate(-0deg);
+        background: #417dc1;
+        }
+        .top:after {
+        transform: rotate(90deg);
+        background: #f8f8ff;
+        }
+        .bottom:before {
+        transform: rotate(180deg);
+        background: #417dc1;
+        }
+        .bottom:after {
+        transform: rotate(-90deg);
+        background: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" onclick="onclick">
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <div class="center">
+            <h2>&nbsp;</h2>
+            <h2>Please Sign Up</h2>
+          <input type="name" placeholder="Full Name"/>
+          <input type="email" placeholder="email"/>
+         <input type="password" placeholder="password"/>
+          
+          <input type="password" placeholder="confirm_password"/>
+          <select class="menu" >
+            <option selected>Choose the catogery</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+         <input type="submit" class="button" value="Sign Up" style="border-radius: 12px">
+        <p>Already have an account? <a href="login.html">Log In now</a></p>
+        <h2>&nbsp;</h2>
+        </div>
+      </div>
+</body>
+</html>
